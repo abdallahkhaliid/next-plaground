@@ -10,7 +10,9 @@ const nextConfig = {
       },
     ],
   },
-  output: "export", // export as static assset files
+  images: {
+    unoptimized: true, // Disable image optimization
+  },
 };
 
 export default nextConfig;

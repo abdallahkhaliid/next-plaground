@@ -1,6 +1,9 @@
 import { Suspense } from "react";
 import CabinList from "../_components/CabinList";
 import Spinner from "../_components/Spinner";
+
+// ISR to genreate a static page in the background and get new data every hour
+// export const revalidate = 3600;
 export const metadata = {
   title: "Cabins",
 };
